@@ -9,6 +9,7 @@ public class DriverFactory {
 	public static WebDriver getDriver() {
 		
 		System.setProperty("webdriver.chrome.driver","D:\\SeleniumProjects\\BusTicketBooking\\chromedriver.exe");
+		System.out.println("");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
